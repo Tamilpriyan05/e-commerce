@@ -1,0 +1,96 @@
+
+/* boat */
+.circleimg{
+    margin-left: 60px;
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+   
+}
+.boat{
+    animation: boat 25s  infinite;
+}
+@keyframes boat {
+    0%{
+        background-image: url(./Images/Boat/overear/oeb1.jpg);
+    }
+    25%{
+      background-image: url(./Images/Boat/overear/apb1.jpg);
+    }
+    50%{
+        background-image: url(./Images/Boat/overear/ncb1.jpg);
+    }
+    75%{
+        background-image: url(./Images/Boat/overear/wb1.jpg);
+    }
+    100%{
+        background-image: url(./Images/Boat/overear/oeb1.jpg);
+    }
+}
+
+.skullcandy{
+    animation: skullcandy 25s  infinite;
+          
+}
+@keyframes skullcandy {
+    0%{
+        background-image: url(./Images/Skullcandy/ohsk1.jpg);
+    }
+    25%{
+      background-image: url(./Images/Skullcandy/apsk1.jpg);
+    }
+    50%{
+        background-image: url(./Images/Skullcandy/ncsk1.jpg);
+    }
+    75%{
+        background-image: url(./Images/Skullcandy/wsk1.jpg);
+    }
+    100%{
+        background-image: url(./Images/Skullcandy/ohsk1.jpg);
+    }
+}
+.sony{
+    animation: sony 25s  infinite;
+          
+}
+@keyframes sony {
+    0%{
+        background-image: url(./Images/sony/ehs1.jpg);
+    }
+    25%{
+      background-image: url(./Images/sony/aps1.jpg);
+    }
+    50%{
+        background-image: url(./Images/sony/ncs1.jpg);
+    }
+    75%{
+        background-image: url(./Images/sony/ws1.jpg);
+    }
+    100%{
+        background-image: url(./Images/sony/ehs1.jpg);
+    }
+}
+.ubl{
+    animation: ubl 25s  infinite;
+          
+}
+@keyframes ubl {
+    0%{
+        background-image: url(./Images/ubl/heub1.jpg);
+    }
+    25%{
+      background-image: url(./Images/ubl/apjb1.jpg);
+    }
+    50%{
+        background-image: url(./Images/ubl/ncjbl.jpg);
+    }
+    75%{
+        background-image: url(./Images/ubl/wjbl.jpg);
+    }
+    100%{
+        background-image: url(./Images/ubl/heub1.jpg);
+    }
+}

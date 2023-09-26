@@ -1,0 +1,20 @@
+.cart{
+    position: relative;
+}
+
+.cartcircle{
+      background-color: red;
+      padding: 2px 8px;
+      border-radius: 50%;
+      position: absolute;
+       left: 15px;
+       cursor: pointer;
+      top: -10px;
+}
+
+.carticon{
+    position: relative;
+    font-size: 40px;
+    top: -10px;
+    cursor: pointer;
+}

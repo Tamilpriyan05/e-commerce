@@ -1,0 +1,19 @@
+
+
+.cardimg{
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    
+}
+
+.cardbox{
+    border: solid;
+    padding: 20px;
+   
+}
+
+.allcard{
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
